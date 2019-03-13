@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: activity-microservice
+  cloud:
+    config:
+      uri: http://127.0.0.1:8081
+      fail-fast: true
+      password: nextdefault
+      username: user

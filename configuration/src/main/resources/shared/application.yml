@@ -1,0 +1,15 @@
+logging:
+  level:
+    org.springframework.security: INFO
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8082/eureka/
+
+security:
+  jwt:
+    resource:
+      user-info-uri: http://127.0.0.1:8084/auth
